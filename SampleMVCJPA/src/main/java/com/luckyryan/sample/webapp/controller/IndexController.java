@@ -28,7 +28,7 @@ public class IndexController {
 
     @Autowired
     SampleService sampleService;
-
+//http://www.luckyryan.com/2013/02/20/spring-mvc-with-basic-persistence-spring-data-jpa-hibernate/
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public ModelAndView index() {
